@@ -1,0 +1,71 @@
+Original string: aabbcaaaccc
+After compress: a2b2c1a3c3
+After compress2: ab2c1ac3
+After decompress: aabbcaaaccc
+VERIFIED!!!
+
+----------------------------------------
+
+Original string: aaaa
+After compress: a4
+After compress2: a4
+After decompress: aaaa
+VERIFIED!!!
+
+----------------------------------------
+
+Original string: abccdd
+After compress: a1b1c2d2
+After compress2: ab1cd2
+After decompress: abccdd
+VERIFIED!!!
+
+----------------------------------------
+
+Original string: 
+After compress: 
+After compress2: 
+After decompress: 
+VERIFIED!!!
+
+----------------------------------------
+
+Original string: xyyzzaaaabbbb
+After compress: x1y2z2a4b4
+After compress2: x1yz2ab4
+After decompress: xyyzzaaaabbbb
+VERIFIED!!!
+
+----------------------------------------
+
+Original string: a3b2c1d4
+After compress: a131b121c111d141
+After compress2: a3b2c1d41
+After decompress: a3b2c1d4
+VERIFIED!!!
+
+----------------------------------------
+
+Original string: !@#$%^
+After compress: !1@1#1$1%1^1
+After compress2: !@#$%^1
+After decompress: !@#$%^
+VERIFIED!!!
+
+----------------------------------------
+
+Original string: abcdefg
+After compress: a1b1c1d1e1f1g1
+After compress2: abcdefg1
+After decompress: abcdefg
+VERIFIED!!!
+
+----------------------------------------
+
+Original string: aaaabbbbcccccddddd
+After compress: a4b4c5d5
+After compress2: ab4cd5
+After decompress: aaaabbbbcccccddddd
+VERIFIED!!!
+
+----------------------------------------
